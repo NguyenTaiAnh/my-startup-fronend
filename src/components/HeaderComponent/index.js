@@ -11,8 +11,8 @@ const HeaderComponent = () => {
         <Row>
             <Col span={4}>Logo</Col>
             <Col span={20} style={{ display: 'flex', justifyContent: 'end' }}>
-                <div style={{ marginRight: '10px' }}>
-                    <Anchor>
+                <div style={{ marginRight: '10px', display:'flex', alignSelf:'center' }}>
+                    <Anchor affix={false}>
                         <Link className="header__ref">
                             <div>
                                 <span className="gry-text">LINK GIỚI THIỆU</span>
