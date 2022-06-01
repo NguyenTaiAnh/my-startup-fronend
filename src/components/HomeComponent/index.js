@@ -3,14 +3,12 @@ import { Layout} from 'antd';
 import HeaderComponent from '../HeaderComponent';
 import SiderComponent from '../SiderComponent';
 import ContentComponent from '../ContentComponent'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const { Header, Footer, Sider, Content } = Layout;
 
 const HomeComponent = () => {
     return (
-        <Router>
-            <Layout>
+        <Layout>
                 <Header className="header" style={{ marginBottom:"1px" }}>
                     <HeaderComponent/>
                 </Header>
@@ -24,7 +22,6 @@ const HomeComponent = () => {
                 </Layout>
                 <Footer>Footer</Footer>
             </Layout>
-        </Router>
 
     );
 }

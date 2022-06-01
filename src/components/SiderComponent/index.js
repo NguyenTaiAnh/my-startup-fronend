@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './styles.css';
-import { BrowserRouter as Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Menu } from 'antd';
 import { ShopOutlined, SettingOutlined, QuestionCircleOutlined, SketchOutlined, BarChartOutlined, WalletOutlined, CommentOutlined, DashboardOutlined, UnorderedListOutlined, CodepenOutlined, UsergroupAddOutlined, BorderOuterOutlined } from '@ant-design/icons';
 
-const SubMenu = Menu.SubMenu;
-
-const SiderComponent = () => {
-    const [state, setState] = useState(false);
-    
+const SiderComponent = () => {    
     return (
         <div className="sider">
             <div style={{ display: 'flex', padding: '8% 0'}}>
