@@ -1,0 +1,14 @@
+.sider{
+    background-color: #fff;
+}
+.image{
+    align-self: center;
+    width: 19%;
+    background: black;
+    border-radius: 50%;
+    margin: 0 5%;
+}
+.level p{
+    margin: 0;
+    font-size: 13px;
+}

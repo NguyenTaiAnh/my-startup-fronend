@@ -1,0 +1,29 @@
+.header{
+    background: #fff !important ;
+}
+.header__ref {
+    background-color: #F8F8FD;
+    padding: 4px 16px 4px 16px !important;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+.gry-text {
+color: #696D74;
+}
+.link-ref{
+    font-weight: bold;
+}
+.copy{
+    margin-left: 10px;
+    border-left: 1px solid;
+    padding: 15px 0 15px 15px;
+}
+.align-items-center button{
+    border: 0px;
+    padding: 0;
+}
+.items-message{
+    padding: 0 16px;
+    display: inline-grid;
+}
